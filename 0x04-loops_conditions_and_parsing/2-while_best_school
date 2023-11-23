@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bash fun scrip 10 times to using while
+
+x = 0;
+
+while [ "$x" -lt 10 ]; do
+  echo "Best School"
+  ((i++))
+done
