@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # bash fun to string 10 times using while loop 
 
-x=0
+i=0
 
-while [ "$x" -lt 10 ]; do
+while [ "$i" -lt 10 ]; do
   echo "Best School"
-  ((x++))
+  ((i++))
 done
