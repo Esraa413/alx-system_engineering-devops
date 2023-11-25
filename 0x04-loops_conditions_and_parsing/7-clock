@@ -9,7 +9,7 @@ while [ $hours -le 12 ]; do
 	min=1
 
 	while [ $min -lt 60 ]; do
-		echo "min: $min"
+		echo "$min"
 		min=$((min + 1))
 	done
 
