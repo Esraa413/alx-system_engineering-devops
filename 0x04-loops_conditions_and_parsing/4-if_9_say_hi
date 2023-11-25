@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # function to print script to using while loop and thn 9 iteration print hi
 
-x=0
+x=1
 
 while [ $x -lt 11 ]; do
 	echo "Best School"
