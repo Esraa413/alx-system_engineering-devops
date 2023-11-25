@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stop me if you can for every iteration see I am invincible
+
+pkill -f 7-highlander
