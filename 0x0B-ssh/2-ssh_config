@@ -1,0 +1,8 @@
+# ssh_config
+#SSH configuration file
+
+Host web-01
+	IdentityFile ~/.ssh/school
+	User ubuntu
+	HostName 100.26.10.86
+	PasswordAuthentication no
