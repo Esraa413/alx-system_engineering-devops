@@ -2,6 +2,11 @@
 #SSH configuration file for the local SSH client
 
 Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
 #   ForwardAgent no
 #   ForwardX11 no
 #   ForwardX11Trusted yes
