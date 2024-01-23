@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# sure to read the Docker concept page
+# page conatining Hello Holberton
+service apache2 start
