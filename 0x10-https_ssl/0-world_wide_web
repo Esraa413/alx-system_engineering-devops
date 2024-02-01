@@ -32,4 +32,4 @@ if [ $# -eq 1 ]; then
 	done
 elif [ $# -eq 2 ]; then
 	dig_cmd "$domain" "$sub"
-if
+fi
