@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Displays informtation so that the subdomain www points
+# Displays informtation about subdomains.
 
 # uncomment for debugging purposes.
 #set -x
