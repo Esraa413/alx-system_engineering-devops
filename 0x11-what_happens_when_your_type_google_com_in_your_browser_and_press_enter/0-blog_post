@@ -1,0 +1,33 @@
+What happens when you type https://www.google.com in your browser and press Enter.
+
+What happens when we type any URL into a browser?
+In this piece, I’ll attempt to answer many of your questions about the inner workings of your browser and the transmission of data to our computers through the Internet.
+what is URL??
+URL stands for Uniform Resource Locator and is used to access a website. There are several parts in a URL: the protocol, hostname, port and path-and-file-name and more. For this blog post, we will look at the protocol and hostname. In the case of https://www.google.com: https is the protocol (more on that later) and www.google.com is the hostname, which can be a domain like in this case or also an IP address
+DNS REQUEST
+When an IP address is still unknown, it first checks the browser and/or OS cache before moving on to the Resolver server, which is often your Internet service provider. All resolvers are required to know where to find the root servers, which in turn know where to find the .COM TLD (Top-Level Domain) server. In the event that the resolver is unable to discover https://www.google.com, the root server informs it of where to find the .COM TLD server. In order to avoid having to query the root server again and making another journey
+THE TCP/IP
+TCP/IP is a set of guidelines for internet-connected computer systems that are conceived in layers.
+1 - The first layer, the Application layer, is where applications like your browser communicate directly. This layer includes protocols such as HTTP (for viewing websites) and SMTP (for checking email)
+2 - TCP and a second scheme called UDP are both present in the Transport Layer, which is the second layer. In order for TCP to understand where the data is coming from, each application layer protocol utilizes a separate port to interact with this layer. Once the data has been received by TCP, it divides it into smaller units known as segments, commonly referred to as packets, so that each one may travel the shortest distance possible
+3 - The third layer, the Internet Layer, receive The Network Access Layer. Data transmission between two devices connected to the same network is handled by it. It specifies how the data should be physically sent across the network.
+es the segments and appends the origin and destination IP addresses to each segment so that regardless of the path
+4 - The Network Access Layer. Data transmission between two devices connected to the same network is handled by it. It specifies how the data should be physically sent across the network.
+
+
+
+
+THE FIREWALLS
+Network security tools called firewalls keep an eye on both incoming and outgoing network traffic before deciding whether to allow or restrict a particular type of communication in accordance with predefined criteria
+THE HTTPS/SSLthat https handles encrypted communication between a web server and a web browser. Typically, SSL is responsible for the security provided by https (Secure Sockets Layer). A communication technology called SSL makes it easier to establish trusted connections and send encrypted data and packets between networked devices data is transferred, an SSL handshake process is performed at the beginning of connection between your computer and https://www.google.com
+THE Load-balancer
+Load-balancers, in this context, are programs or pieces of hardware that route requests for servers from clients to many servers in the same network. Load balancing is the practice of using multiple scheduling algorithms in concert inside a single piece of software. Load balancers, on the hardware side, are sometimes referred to as specialized routers or switches and are placed between the servers and the clients.
+
+
+Web server & Application server
+computer system that processes requests from users on the World Wide Web and sends back data using the Hypertext Transfer Protocol (HTTP) and other protocols. Its primary responsibility is to show website content by storing, processing, and delivering web pages to visitors
+In contrast to a web server, which was designed to primarily serve static material, an application server is capable of serving dynamic content, performing business logic for enterprise applications, and incorporating a number of different protocols for client response
+
+
+Database
+Databases store data in a structured style that facilitates quick searches and regular maintenance. Any kind of information can be saved, managed, and retrieved with the help of a database. This information has been gathered in a systematic fashion and The Database Management system makes it possible to manage data by storing information about users, updating information about location and time zone, managing session data, and so on.
