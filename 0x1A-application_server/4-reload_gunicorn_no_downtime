@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# page both locally and on its public IP on port
+
+ps aux | grep gunicorn | awk '{ print $2 }' | xargs kill -HUP
